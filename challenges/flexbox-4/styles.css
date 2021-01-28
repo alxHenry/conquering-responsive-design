@@ -49,3 +49,17 @@ body {
   font-weight: 400;
   margin: 0;
 }
+
+.info--heading {
+  color: #824936;
+  font-size: 36px;
+  text-align: center;
+}
+
+.info--text {
+  font-size: 21px;
+}
+
+.info--text-wrapper {
+  justify-content: space-between;
+}
