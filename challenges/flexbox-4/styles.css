@@ -7,6 +7,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.p--text {
+  font-size: 21px;
+}
+
 .row {
   display: flex;
 }
@@ -16,6 +25,10 @@ body {
 }
 
 .col + .col {
+  margin-left: 3em;
+}
+
+.hero--heading {
   margin-top: 0.8em;
 }
 
@@ -50,16 +63,35 @@ body {
   margin: 0;
 }
 
+.subsection {
+  min-height: 400px;
+  padding: 4em 0;
+}
+
+.subsection h3 {
+  font-size: 36px;
+}
+
 .info--heading {
   color: #824936;
   font-size: 36px;
   text-align: center;
 }
 
-.info--text {
-  font-size: 21px;
-}
-
 .info--text-wrapper {
   justify-content: space-between;
+}
+
+.text-image {
+  background-color: #222c2a;
+  color: #f3eed9;
+}
+
+.text-image--image {
+  align-items: flex-start;
+}
+
+.image-text {
+  background-color: #824936;
+  color: #f3eed9;
 }

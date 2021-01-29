@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flexbox 4</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox 4</title>
 
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-</head>
-<body>
-  <section class="hero">
-    <div class="container hero--flex-container">
-      <h5 class="hero--subheading col">L O R E M I P S U M  S I T</h5>
-      <h1 class="hero--heading col">Responsive layouts don’t have to be a struggle</h1>
-    </div>
-  </section>
-  <section class="info">
-    <div class="container">
-      <h2 class="info--heading">Quality Designs</h2>
-      <div class="info--text-wrapper row">
-        <p class="info--text info--text-1 col">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Dui vivamus arcu felis bibendum ut
-          tristique. Arcu dui vivamus arcu felis. Sociis natoque
-          penatibus et magnis dis.
-        </p>
-        <p class="info--text info--text-2 col">
-          Felis donec et odio pellentesque diam volutpat. Aliquam
-          purus sit amet luctus venenatis. Turpis in eu mi
-          bibendum neque egestas congue quisque egestas.
-          Pellentesque sit amet porttitor eget dolor morbi non.
-        </p>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <section class="hero">
+      <div class="container hero--flex-container">
+        <h5 class="hero--subheading">L O R E M I P S U M S I T</h5>
+        <h1 class="hero--heading">Responsive layouts don’t have to be a struggle</h1>
       </div>
-    </div>
-  </section>
-</body>
+    </section>
+
+    <section class="info subsection">
+      <div class="container">
+        <h3 class="info--heading">Quality Designs</h3>
+        <div class="info--text-wrapper row">
+          <p class="info--text col p--text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Dui vivamus arcu felis bibendum ut tristique. Arcu dui vivamus arcu felis. Sociis
+            natoque penatibus et magnis dis.
+          </p>
+          <p class="info--text col p--text">
+            Felis donec et odio pellentesque diam volutpat. Aliquam purus sit amet luctus venenatis. Turpis in eu mi
+            bibendum neque egestas congue quisque egestas. Pellentesque sit amet porttitor eget dolor morbi non.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-image subsection">
+      <div class="container row">
+        <div class="col">
+          <h3>Made custom for you</h3>
+          <p class="p--text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam.
+          </p>
+        </div>
+        <div class="col">
+          <img src="image-01.jpg" alt="sunrise over mountains" />
+        </div>
+      </div>
+    </section>
+
+    <section class="image-text subsection">
+      <div class="container row">
+        <div class="col">
+          <img src="image-02.jpg" alt="sunset over mountains" />
+        </div>
+        <div class="col">
+          <h3>Created with care</h3>
+          <p class="p--text">
+            Felis donec et odio pellentesque diam volutpat. Aliquam purus sit amet luctus venenatis. Turpis in eu mi
+            bibendum neque egestas congue quisque egestas. Pellentesque sit amet porttitor eget dolor morbi non.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
