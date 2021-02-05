@@ -151,8 +151,7 @@ header {
   color: #136c72;
   background-color: white;
   padding: 0.5em;
-  /* Pay attention to trick to get oblong button */
-  border-radius: 20%;
+  border-radius: 40px;
 }
 
 .logo {
